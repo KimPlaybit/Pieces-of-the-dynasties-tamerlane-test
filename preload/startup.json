@@ -1,0 +1,450 @@
+[
+ {
+  "url": "Content/images/pawn-deco.xnb",
+  "missing": true
+ },
+ {
+  "url": "Content/images/knight-deco.xnb",
+  "missing": true
+ },
+ {
+  "url": "Content/images/bishop-deco.xnb",
+  "missing": true
+ },
+ {
+  "url": "Content/images/rook-deco.xnb",
+  "missing": true
+ },
+ {
+  "url": "Content/images/queen-deco.xnb",
+  "missing": true
+ },
+ {
+  "url": "Content/images/king-deco.xnb",
+  "missing": true
+ },
+ {
+  "url": "Content/images/cannon-deco.xnb",
+  "missing": true
+ },
+ {
+  "url": "Content/images/minister-deco.xnb",
+  "missing": true
+ },
+ {
+  "url": "Content/images/elephant-deco.xnb",
+  "missing": true
+ },
+ {
+  "url": "Content/images/camel-deco.xnb",
+  "missing": true
+ },
+ {
+  "url": "Content/images/ferz-deco.xnb",
+  "missing": true
+ },
+ {
+  "url": "Content/images/vanguard-deco.xnb",
+  "missing": true
+ },
+ {
+  "url": "Content/images/war-engine-deco.xnb",
+  "missing": true
+ },
+ {
+  "url": "Content/images/grand-vizier-deco.xnb",
+  "missing": true
+ },
+ {
+  "url": "Content/images/the-vao-deco.xnb",
+  "missing": true
+ },
+ {
+  "url": "Content/images/silver-general-deco.xnb",
+  "missing": true
+ },
+ {
+  "url": "Content/images/sultan-deco.xnb",
+  "missing": true
+ },
+ {
+  "url": "Content/images/pawnofkings-body.xnb",
+  "missing": true
+ },
+ {
+  "url": "Content/images/Cursor/normal.xnb",
+  "size": 67573
+ },
+ {
+  "url": "Content/images/Cursor/event-cursor.xnb",
+  "size": 67573
+ },
+ {
+  "url": "Content/images/button.xnb",
+  "size": 529321
+ },
+ {
+  "url": "Content/fonts/Cinzel-Regular.xnb",
+  "size": 71057
+ },
+ {
+  "url": "Content/fonts/Cinzel-Small.xnb",
+  "size": 21905
+ },
+ {
+  "url": "Content/fonts/Cinzel-Tiny.xnb",
+  "size": 21905
+ },
+ {
+  "url": "Content/fonts/Cinzel-Bold.xnb",
+  "size": 71057
+ },
+ {
+  "url": "Content/images/nail.xnb",
+  "size": 3737
+ },
+ {
+  "url": "Content/images/menu/emblem.xnb",
+  "size": 531733
+ },
+ {
+  "url": "Content/images/menu/top-decale.xnb",
+  "size": 181025
+ },
+ {
+  "url": "Content/images/menu/bottom-decale.xnb",
+  "size": 225805
+ },
+ {
+  "url": "Content/music/battle-theme.xnb",
+  "size": 130
+ },
+ {
+  "url": "Content/soundeffects/piecemoving/movingpiece-1.xnb",
+  "size": 13545
+ },
+ {
+  "url": "Content/soundeffects/piecemoving/movingpiece-2.xnb",
+  "size": 13877
+ },
+ {
+  "url": "Content/soundeffects/piecemoving/movingpiece-3.xnb",
+  "size": 16721
+ },
+ {
+  "url": "Content/soundeffects/piecemoving/movingpiece-4.xnb",
+  "size": 29229
+ },
+ {
+  "url": "Content/soundeffects/piecemoving/movingpiece-5.xnb",
+  "size": 20509
+ },
+ {
+  "url": "Content/soundeffects/button-click/button-click-1.xnb",
+  "size": 28869
+ },
+ {
+  "url": "Content/soundeffects/button-click/button-click-2.xnb",
+  "size": 45513
+ },
+ {
+  "url": "Content/soundeffects/button-click/button-click-3.xnb",
+  "size": 88725
+ },
+ {
+  "url": "Content/soundeffects/button-click/button-click-4.xnb",
+  "size": 83093
+ },
+ {
+  "url": "Content/soundeffects/battle/victory.xnb",
+  "size": 2834025
+ },
+ {
+  "url": "Content/soundeffects/battle/defeat.xnb",
+  "size": 7956177
+ },
+ {
+  "url": "Content/soundeffects/battle/draw.xnb",
+  "size": 1232301
+ },
+ {
+  "url": "Content/images/pawn-body.xnb",
+  "size": 28225
+ },
+ {
+  "url": "Content/images/pawn-line.xnb",
+  "size": 28225
+ },
+ {
+  "url": "Content/images/knight-body.xnb",
+  "size": 34133
+ },
+ {
+  "url": "Content/images/knight-line.xnb",
+  "size": 34133
+ },
+ {
+  "url": "Content/images/bishop-body.xnb",
+  "size": 35477
+ },
+ {
+  "url": "Content/images/bishop-line.xnb",
+  "size": 35477
+ },
+ {
+  "url": "Content/images/rook-body.xnb",
+  "size": 34581
+ },
+ {
+  "url": "Content/images/rook-line.xnb",
+  "size": 34581
+ },
+ {
+  "url": "Content/images/queen-body.xnb",
+  "size": 45229
+ },
+ {
+  "url": "Content/images/queen-line.xnb",
+  "size": 45229
+ },
+ {
+  "url": "Content/images/king-body.xnb",
+  "size": 42121
+ },
+ {
+  "url": "Content/images/king-line.xnb",
+  "size": 42121
+ },
+ {
+  "url": "Content/images/soldier-body.xnb",
+  "size": 31037
+ },
+ {
+  "url": "Content/images/soldier-line.xnb",
+  "size": 31037
+ },
+ {
+  "url": "Content/images/soldier-deco.xnb",
+  "size": 31037
+ },
+ {
+  "url": "Content/images/Horse-body.xnb",
+  "size": 39301
+ },
+ {
+  "url": "Content/images/Horse-line.xnb",
+  "size": 39301
+ },
+ {
+  "url": "Content/images/Horse-deco.xnb",
+  "size": 39301
+ },
+ {
+  "url": "Content/images/Chariot-body.xnb",
+  "size": 45229
+ },
+ {
+  "url": "Content/images/Chariot-line.xnb",
+  "size": 45229
+ },
+ {
+  "url": "Content/images/Chariot-deco.xnb",
+  "size": 45229
+ },
+ {
+  "url": "Content/images/cannon-body.xnb",
+  "size": 46285
+ },
+ {
+  "url": "Content/images/cannon-line.xnb",
+  "size": 46285
+ },
+ {
+  "url": "Content/images/advisor-body.xnb",
+  "size": 45373
+ },
+ {
+  "url": "Content/images/advisor-line.xnb",
+  "size": 45373
+ },
+ {
+  "url": "Content/images/advisor-deco.xnb",
+  "size": 45373
+ },
+ {
+  "url": "Content/images/minister-body.xnb",
+  "size": 33685
+ },
+ {
+  "url": "Content/images/minister-line.xnb",
+  "size": 33685
+ },
+ {
+  "url": "Content/images/elephant-body.xnb",
+  "size": 49353
+ },
+ {
+  "url": "Content/images/elephant-line.xnb",
+  "size": 49353
+ },
+ {
+  "url": "Content/images/camel-body.xnb",
+  "size": 44245
+ },
+ {
+  "url": "Content/images/camel-line.xnb",
+  "size": 44245
+ },
+ {
+  "url": "Content/images/ferz-body.xnb",
+  "size": 32005
+ },
+ {
+  "url": "Content/images/ferz-line.xnb",
+  "size": 32005
+ },
+ {
+  "url": "Content/images/vanguard-body.xnb",
+  "size": 44165
+ },
+ {
+  "url": "Content/images/vanguard-line.xnb",
+  "size": 44165
+ },
+ {
+  "url": "Content/images/war-engine-body.xnb",
+  "size": 49333
+ },
+ {
+  "url": "Content/images/war-engine-line.xnb",
+  "size": 49333
+ },
+ {
+  "url": "Content/images/grand-vizier-body.xnb",
+  "size": 42565
+ },
+ {
+  "url": "Content/images/grand-vizier-line.xnb",
+  "size": 42565
+ },
+ {
+  "url": "Content/images/the-vao-body.xnb",
+  "size": 37805
+ },
+ {
+  "url": "Content/images/the-vao-line.xnb",
+  "size": 37805
+ },
+ {
+  "url": "Content/images/general-body.xnb",
+  "size": 34833
+ },
+ {
+  "url": "Content/images/general-line.xnb",
+  "size": 34833
+ },
+ {
+  "url": "Content/images/general-deco.xnb",
+  "size": 34833
+ },
+ {
+  "url": "Content/images/silver-general-body.xnb",
+  "size": 41381
+ },
+ {
+  "url": "Content/images/silver-general-line.xnb",
+  "size": 41381
+ },
+ {
+  "url": "Content/images/sultan-body.xnb",
+  "size": 53233
+ },
+ {
+  "url": "Content/images/sultan-line.xnb",
+  "size": 53233
+ },
+ {
+  "url": "Content/images/pawnofkings.xnb",
+  "size": 131125
+ },
+ {
+  "url": "Content/images/board-square.xnb",
+  "size": 331861
+ },
+ {
+  "url": "Content/images/board/tiles-light.xnb",
+  "size": 1267285
+ },
+ {
+  "url": "Content/images/board/tiles-dark.xnb",
+  "size": 1324885
+ },
+ {
+  "url": "Content/images/board/frame.xnb",
+  "size": 6269777
+ },
+ {
+  "url": "Content/images/board/river.xnb",
+  "size": 334165
+ },
+ {
+  "url": "Content/images/Battle/ChessBattle_Top.xnb",
+  "size": 3145549
+ },
+ {
+  "url": "Content/images/Battle/ChessBattle_Bottom.xnb",
+  "size": 3145549
+ },
+ {
+  "url": "Content/images/Battle/ChessBattle_Foreground.xnb",
+  "size": 6291013
+ },
+ {
+  "url": "Content/images/Battle/ChessBattle_Top_Owner.xnb",
+  "size": 3145549
+ },
+ {
+  "url": "Content/images/Battle/ChessBattle_Bottom_Owner.xnb",
+  "size": 3145549
+ },
+ {
+  "url": "Content/images/Battle/ChessBattle_Foreground_Owner.xnb",
+  "size": 6291013
+ },
+ {
+  "url": "Content/images/Battle/TamerlaneBattle_Top.xnb",
+  "size": 3145549
+ },
+ {
+  "url": "Content/images/Battle/TamerlaneBattle_Bottom.xnb",
+  "size": 3145549
+ },
+ {
+  "url": "Content/images/Battle/TamerlaneBattle_Foreground.xnb",
+  "size": 6291013
+ },
+ {
+  "url": "Content/images/Battle/TamerlaneBattle_Top_Owner.xnb",
+  "size": 3145549
+ },
+ {
+  "url": "Content/images/Battle/TamerlaneBattle_Bottom_Owner.xnb",
+  "size": 3145549
+ },
+ {
+  "url": "Content/images/Battle/TamerlaneBattle_Foreground_Owner.xnb",
+  "size": 6291013
+ },
+ {
+  "url": "Content/images/battle-summary/border.xnb",
+  "size": 2633813
+ },
+ {
+  "url": "Content/images/button-greyed.xnb",
+  "size": 529321
+ },
+ {
+  "url": "Content/images/button-greyed-fill.xnb",
+  "size": 529321
+ }
+]

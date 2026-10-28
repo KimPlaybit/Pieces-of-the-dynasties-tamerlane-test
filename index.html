@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pieces of the Dynasties</title>
+    <base href="/Pieces-of-the-dynasties-tamerlane-test/" />
+    <link rel="stylesheet" href="css/app.css" />
+    <link rel="icon" type="image/png" sizes="192x192" href="favicon.png" />
+    <link rel="icon" href="favicon.ico" sizes="any" />
+</head>
+<body>
+    <div id="app"></div>
+
+    <!-- Loading screen. Covers the canvas until the game draws its first frame (see loader.js):
+         the .NET runtime download, then the game's art (preloaded so the start never stalls on the
+         network), then the start itself. -->
+    <div id="loading">
+        <div class="loading-panel">
+            <div class="loading-title">Pieces of the Dynasties</div>
+            <div class="loading-subtitle">Demo</div>
+            <div class="loading-bar"><div class="loading-fill" id="loading-fill"></div></div>
+            <div class="loading-stage" id="loading-stage">Loading the game engine…</div>
+            <div class="loading-detail" id="loading-detail"></div>
+        </div>
+    </div>
+
+    <script src="loader.js"></script>
+    <script src="_framework/blazor.webassembly.js"></script>
+</body>
+</html>
