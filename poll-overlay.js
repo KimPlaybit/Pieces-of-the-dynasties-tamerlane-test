@@ -24,7 +24,17 @@ const STYLES = `
 }
 .poll-title { color: #e2c27a; font-size: clamp(20px, 4vw, 28px); letter-spacing: 0.06em; text-transform: uppercase; margin-bottom: 14px; }
 .poll-note { font-size: 15px; line-height: 1.5; margin: 0 0 10px; }
-.poll-frame { box-sizing: border-box; display: block; width: 100%; height: min(440px, 55vh); margin: 14px 0 18px; border: 1px solid #5a4a2a; border-radius: 6px; background: #fff; }
+.poll-frame-wrap { position: relative; margin: 14px 0 18px; }
+.poll-frame { box-sizing: border-box; display: block; width: 100%; height: min(440px, 55vh); border: 1px solid #5a4a2a; border-radius: 6px; background: #fff; }
+/* Sits over the poll page's top-left corner, where its header logo is — the page is another site's,
+   so the logo can't be hidden from here, but our own button can cover it. */
+.poll-reload {
+    position: absolute; top: 6px; left: 8px;
+    font: inherit; font-size: 14px; color: #f0e2bd; cursor: pointer;
+    padding: 7px 14px; min-height: 36px;
+    background: linear-gradient(#3a2f1c, #231c10); border: 1px solid #a8884a; border-radius: 6px;
+}
+.poll-reload:hover, .poll-reload:focus-visible { background: linear-gradient(#5a4726, #352a17); color: #ffe7a6; outline: none; }
 .poll-actions { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; }
 .poll-button {
     font: inherit; font-size: 16px; color: #f0e2bd; cursor: pointer;
@@ -61,7 +71,10 @@ function build(url) {
                 faction of its own around them.
             </p>
             <p class="poll-note">Should it be added to the game as a playable faction, or skipped?</p>
-            <iframe class="poll-frame" title="Tamerlane faction poll"></iframe>
+            <div class="poll-frame-wrap">
+                <iframe class="poll-frame" title="Tamerlane faction poll"></iframe>
+                <button type="button" class="poll-reload" data-action="reload">&#x21bb; Reload poll</button>
+            </div>
             <div class="poll-actions">
                 <button type="button" class="poll-button" data-action="voted">I've voted</button>
                 <button type="button" class="poll-button" data-action="close">Back to the game</button>
@@ -74,7 +87,8 @@ function build(url) {
     // the panel on the mouse PRESS, so the release that follows lands on the backdrop at once.
     overlay.addEventListener('click', e => {
         const action = e.target.dataset && e.target.dataset.action;
-        if (action === 'voted') { markVoted(); hide(); }
+        if (action === 'reload') frame.setAttribute('src', frame.dataset.src); // re-setting src reloads it
+        else if (action === 'voted') { markVoted(); hide(); }
         else if (action === 'close') hide();
     });
     document.body.appendChild(overlay);
